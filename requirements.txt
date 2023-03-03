@@ -2,7 +2,9 @@ flask
 flask_socketio
 flask-sqlalchemy
 pymysql
+psycopg2
 werkzeug
 simple-websocket
-eventlet
-Gunicorn
+gevent
+gevent-websocket
+gunicorn
