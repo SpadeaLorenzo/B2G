@@ -4,7 +4,7 @@ logging.basicConfig(datefmt='%Y-%m-%d %H:%M:%S', format='[%(levelname)s] %(messa
 logging.info('\n'.join(sys.path))
 logging.info(f'current path: {__file__}')
 
-from routes.db_connect import get_connection
+from db_connect import get_connection
 from datetime import  datetime , date
 
 import json
